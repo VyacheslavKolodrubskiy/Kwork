@@ -1,5 +1,4 @@
 .menu {
-  position: relative;
   &__list {
     display: flex;
     align-items: center;
@@ -11,7 +10,8 @@
     &:nth-child(1),
     &:nth-child(2) {
       &:hover {
-        .submenu__list {
+        .submenu {
+          display: block;
         }
         &::after {
           transform: rotate(-180deg);
@@ -34,7 +34,7 @@
       background: #e53429;
       width: 100%;
       height: 3px;
-      top: 100%;
+      top: 98%;
       left: 0;
       transition: all 0.2s ease-out;
       opacity: 0;
@@ -55,13 +55,14 @@
 }
 
 .submenu {
+  border-top: 1px solid#E5E5E5;
+  padding: 30px 0px 40px 0px;
+  display: none;
+  .container {
+    padding: 0;
+  }
   &__list {
-    padding: 30px 0px 40px 56px;
-    position: absolute;
-    top: 100%;
-    left: 0;
     z-index: 10;
-    background: #fff;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 30px;
