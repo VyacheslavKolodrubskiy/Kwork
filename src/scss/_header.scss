@@ -1,0 +1,98 @@
+.header {
+  position: relative;
+  border-bottom: 1px solid #e0e0e0;
+  &__inner {
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 6px 0;
+  }
+  &__logo {
+  }
+  &__location {
+    color: #555555;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      &::after {
+        transform: rotate(-180deg);
+      }
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      background: url("../img/icons/location.svg") no-repeat;
+      width: 24px;
+      height: 24px;
+      top: -5px;
+      left: -26px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      background: url("../img/icons/arrow-down.svg") no-repeat;
+      width: 16px;
+      height: 16px;
+      top: 0;
+      right: -26px;
+      transition: all 0.2s ease-out;
+    }
+  }
+  &__search {
+    max-width: 470px;
+    min-height: 40px;
+    width: 100%;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      background: url("../img/icons/search.svg") no-repeat;
+      width: 24px;
+      height: 24px;
+      top: 8px;
+      right: 16px;
+    }
+    input {
+      width: inherit;
+      min-height: inherit;
+      border: 1px solid #e0e0e0;
+      outline: none;
+      padding: 11px 16px;
+      &:focus {
+        border: 1px solid #e0e0e0;
+      }
+      &::placeholder {
+        color: #9fa19f;
+      }
+    }
+  }
+  &__login {
+    display: flex;
+    align-items: center;
+  }
+  &__login-profile {
+    margin-right: 40px;
+  }
+  &__login-oms {
+    display: flex;
+    align-items: flex-end;
+    div {
+      margin-left: 10px;
+      font-weight: 500;
+      color: #555555;
+    }
+  }
+  &__phone {
+    text-align: center;
+    color: #e53429;
+    font-weight: 500;
+    div {
+      margin-top: 5px;
+      color: #9fa19f;
+    }
+  }
+}
+

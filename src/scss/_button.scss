@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 16px 56px;
+  transition: all 0.2s ease-out;
+  color: #ffffff;
+  &-danger {
+    background: #e53429;
+    &:hover {
+      background: darken(#e53429, 5%);
+    }
+  }
+}
+
