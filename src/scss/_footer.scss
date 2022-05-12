@@ -32,6 +32,10 @@
   }
   &__list-link {
     color: #999999;
+    transition: color 0.2s ease-out;
+    &:hover {
+      color: darken(#999999, 25%);
+    }
   }
   &__cookie {
     align-self: flex-end;
@@ -68,6 +72,8 @@
   }
   &__phone {
     img {
+      width: 20px;
+      height: 20px;
       opacity: 0.5;
     }
   }
