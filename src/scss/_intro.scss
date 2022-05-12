@@ -7,12 +7,12 @@
   }
   &__title {
     margin-bottom: 60px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     font-size: 56px;
     line-height: 130%;
-    color: #555555;
+    color: var(--primary-color);
     span {
-      color: #e53429;
+      color: var(--secondary-color);
     }
   }
   &__img {

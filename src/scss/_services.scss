@@ -2,10 +2,10 @@
   padding: 100px 0px 196px 0px;
   &__title {
     margin-bottom: 40px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     font-size: 38px;
     line-height: 120%;
-    color: #555555;
+    color: var(--primary-color);
   }
   &__inner {
     display: grid;
@@ -15,7 +15,7 @@
   &__block {
     &:hover {
       .services__footer-title {
-        color: #e53429;
+        color: var(--secondary-color);
       }
     }
   }
@@ -37,11 +37,10 @@
     }
   }
   &__footer-title {
-    font-weight: 500;
+    font-weight: var(--font-medium);
     font-size: 26px;
     line-height: 120%;
-    color: #555555;
+    color: var(--primary-color);
     transition: all 0.2s ease-out;
   }
 }
-

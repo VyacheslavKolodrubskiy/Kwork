@@ -4,12 +4,16 @@
       <div class="container">
         <div class="header__top-inner">
           <a class="header__logo logo" href="index.html">
-            <img
-              src="./img/icons/logo.png"
-              width="215"
-              height="98"
-              alt="logo"
-            />
+            <picture>
+              <source srcset="./img/icons/logo.webp" type="image/webp" />
+              <img
+                class=""
+                src="./img/icons/logo.png"
+                width="215"
+                height="98"
+                alt="Logo"
+              />
+            </picture>
           </a>
           <div class="header__location">Выберите адрес</div>
           <div class="header__search">
@@ -29,7 +33,7 @@
                 src="./img/icons/enter.svg"
                 width="24"
                 height="24"
-                alt="User Icon"
+                alt="Oms"
               />
               <div>ОМС</div>
             </a>
@@ -46,109 +50,140 @@
       <div class="container">
         <ul class="menu__list">
           <li class="menu__list-item">
-            <a class="menu__list-link" href="#">Платные услуги</a>
+            <a class="menu__list-link" href="#" data-submenu-trigger
+              >Платные услуги
+            </a>
             <div class="submenu">
               <div class="container">
-                <ul class="submenu__list">
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Вакцинация</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Иглорефлексотерапия</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Озонотерапия</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Пульмонология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Фармакопунктура</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Гастроэнтерология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Кардиология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Онкомаммология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Рентгенография</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Физиотерапия</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Гинекология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#"
-                      >Лабораторная диагностика</a
-                    >
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Оториноларингология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Терапия</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Хирургия</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Гирудотерапия</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Маммография</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Офтальмология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Травматология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Эндокринология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Дерматология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Массаж</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Помощь на дому</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#"
-                      >Ультразвуковое исследование</a
-                    >
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#"
-                      >Подготовка к исследованиям</a
-                    >
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Дневной стационар</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Неврология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Проктология</a>
-                  </li>
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="#">Урология</a>
-                  </li>
-                </ul>
+                <div class="submenu__inner">
+                  <div class="submenu__box">
+                    <ul class="submenu__list">
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Вакцинация</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Гастроэнтерология</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Гинекология</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Гирудотерапия</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Дерматология</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Дневной стационар</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="submenu__box">
+                    <ul class="submenu__list">
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#"
+                          >Иглорефлексотерапия</a
+                        >
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Кардиология</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">
+                          Лабораторная диагностика</a
+                        >
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Маммография</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Массаж</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Неврология</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="submenu__box">
+                    <ul class="submenu__list">
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Озонотерапия</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Онкомаммология</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#"
+                          >Оториноларингология</a
+                        >
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Офтальмология</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#"> Помощь на дому</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Проктология</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="submenu__box">
+                    <ul class="submenu__list">
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Пульмонология</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Рентгенография</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Терапия</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Травматология</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">
+                          Ультразвуковое исследование</a
+                        >
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#"> Урология</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="submenu__box">
+                    <ul class="submenu__list">
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Фармакопунктура</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Физиотерапия</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Хирургия</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">Эндокринология</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="#">
+                          Подготовка к исследованиям</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </li>
           <li class="menu__list-item">
-            <a class="menu__list-link" href="#">Прием по ОМС</a>
+            <a class="menu__list-link" href="#" data-submenu-trigger
+              >Прием по ОМС
+            </a>
           </li>
           <li class="menu__list-item">
             <a class="menu__list-link" href="#">Прием по ДМС</a>

@@ -17,7 +17,7 @@
   &__bottom {
   }
   &__location {
-    color: #555555;
+    color: var(--primary-color);
     position: relative;
     cursor: pointer;
     &:hover {
@@ -85,14 +85,14 @@
     align-items: flex-end;
     div {
       margin-left: 10px;
-      font-weight: 500;
-      color: #555555;
+      font-weight: var(--font-medium);
+      color: var(--primary-color);
     }
   }
   &__phone {
     text-align: center;
-    color: #e53429;
-    font-weight: 500;
+    color: var(--secondary-color);
+    font-weight: var(--font-medium);
     div {
       margin-top: 5px;
       color: #9fa19f;
