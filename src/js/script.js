@@ -1,7 +1,6 @@
-import Swiper from "swiper";
+import Glide from "@glidejs/glide";
 
 ("use strict");
 document.addEventListener("DOMContentLoaded", () => {
-  new Swiper(".swiper");
+  new Glide(".glide", { type: "carousel", startAt: 0, perView: 1 }).mount();
 });
-

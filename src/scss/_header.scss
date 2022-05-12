@@ -4,13 +4,17 @@
   &__inner {
   }
   &__top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     border-bottom: 1px solid #e0e0e0;
     padding: 6px 0;
   }
+  &__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   &__logo {
+  }
+  &__bottom {
   }
   &__location {
     color: #555555;
@@ -95,4 +99,3 @@
     }
   }
 }
-

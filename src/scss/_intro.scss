@@ -1,9 +1,9 @@
 .intro {
-  position: relative;
   padding: 100px 0;
   background: #f0f0f0;
   &__content {
     max-width: 658px;
+    margin-right: 395px;
   }
   &__title {
     margin-bottom: 60px;
@@ -16,9 +16,6 @@
     }
   }
   &__img {
-    position: absolute;
-    top: -107px;
-    right: 275px;
   }
   &__btn {
     margin-bottom: 43px;
@@ -34,3 +31,17 @@
   }
 }
 
+.glide {
+  overflow: hidden;
+  &__track {
+  }
+  &__slides {
+    display: flex;
+  }
+  &__slide-inner {
+    display: flex;
+    align-items: center;
+  }
+  &__slide {
+  }
+}
