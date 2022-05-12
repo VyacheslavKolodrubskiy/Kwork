@@ -83,12 +83,18 @@
   background-color: #fff;
   opacity: 0;
   visibility: hidden;
+
   &__inner {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 30px;
   }
   &__list {
+    &:hover {
+      .menu__list-link {
+        display: none;
+      }
+    }
   }
   &__item {
     &:not(:last-child) {
@@ -104,3 +110,4 @@
     }
   }
 }
+

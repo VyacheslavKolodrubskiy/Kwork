@@ -7,7 +7,6 @@
             <picture>
               <source srcset="./img/icons/logo.webp" type="image/webp" />
               <img
-                class=""
                 src="./img/icons/logo.png"
                 width="215"
                 height="98"
@@ -15,7 +14,23 @@
               />
             </picture>
           </a>
-          <div class="header__location">Выберите адрес</div>
+          <div class="header__location">
+            Выберите адрес
+            <div class="header__location-list">
+              <a class="header__location-link" href="#"
+                >ул. Х.Такташ, д. 115 (ОМС)</a
+              >
+              <a class="header__location-link" href="#"
+                >ул. Зилантовская, д. 20 (ОМС)</a
+              >
+              <a class="header__location-link" href="#"
+                >г. Казань, ул. Патриса Лумумбы д.4</a
+              >
+              <a class="header__location-link" href="#"
+                >ул. Н.Назарбаева, д. 47/113</a
+              >
+            </div>
+          </div>
           <div class="header__search">
             <input type="text" placeholder="Поиск" />
           </div>
@@ -189,7 +204,9 @@
             <a class="menu__list-link" href="#">Прием по ДМС</a>
           </li>
           <li class="menu__list-item">
-            <a class="menu__list-link" href="#">Педиатрия</a>
+            <a class="menu__list-link" href="#" data-submenu-trigger
+              >Педиатрия</a
+            >
           </li>
           <li class="menu__list-item">
             <a class="menu__list-link" href="#">Промышленная медицина</a>
@@ -217,3 +234,4 @@
     </button>
   </div>
 </header>
+
