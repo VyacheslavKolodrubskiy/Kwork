@@ -56,23 +56,24 @@
     left: -10%;
     z-index: 50;
     width: 150%;
-    padding: 20px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 5px 10px 2px rgb(34 60 80 / 20%);
-    visibility: hidden;
-    opacity: 0;
+
     transition: all 0.2s ease-out;
   }
   &__location-item {
+    &:hover {
+      background-color: #f0f0f0;
+    }
   }
   &__location-link {
     position: relative;
     display: block;
     padding-left: 30px;
     color: var(--primary-color);
-    font-size: 14px;
-    line-height: 150%;
+    font-size: 18px;
+    line-height: 100%;
     transition: color 0.2s ease-out;
     &::before {
       position: absolute;
@@ -144,3 +145,4 @@
     }
   }
 }
+

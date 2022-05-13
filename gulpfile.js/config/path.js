@@ -9,7 +9,7 @@ module.exports = {
     dest: pathDest,
   },
   htmlPages: {
-    src: `${pathSrc}/pages/*.html`,
+    src: [`${pathSrc}/pages/*.html`, `!${pathSrc}/pages/_*.html`],
     watch: `${pathSrc}/pages/*.html`,
     dest: pathDest,
   },
