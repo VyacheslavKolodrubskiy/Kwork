@@ -36,3 +36,4 @@ exports.js = js;
 exports.img = img;
 exports.font = font;
 exports.default = app.isProd ? build : dev;
+

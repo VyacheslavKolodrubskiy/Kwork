@@ -8,6 +8,11 @@ module.exports = {
     watch: `${pathSrc}/**/*.html`,
     dest: pathDest,
   },
+  htmlPages: {
+    src: `${pathSrc}/pages/*.html`,
+    watch: `${pathSrc}/pages/*.html`,
+    dest: pathDest,
+  },
   scss: {
     src: `${pathSrc}/scss/style.scss`,
     watch: `${pathSrc}/scss/**/*.scss`,
@@ -29,3 +34,4 @@ module.exports = {
     dest: `${pathDest}/fonts`,
   },
 };
+

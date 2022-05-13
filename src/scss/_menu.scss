@@ -57,6 +57,10 @@
     padding: 25px 0;
     color: var(--primary-color);
     font-weight: var(--font-medium);
+    transition: color 0.2s ease-out;
+    &:hover {
+      color: var(--secondary-color);
+    }
   }
 }
 .submenu {
@@ -97,3 +101,4 @@
     }
   }
 }
+
