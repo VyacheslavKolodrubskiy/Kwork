@@ -50,7 +50,6 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
-    "@glidejs/glide": "^3.5.2",
-    "swiper": "^8.1.4"
+    "@glidejs/glide": "^3.5.2"
   }
 }
