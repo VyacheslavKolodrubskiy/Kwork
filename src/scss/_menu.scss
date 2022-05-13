@@ -1,12 +1,12 @@
 .menu {
   position: relative;
-  border-bottom: 1px solid #e0e0e0;
   &__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   &__list-item {
+    position: relative;
     &:nth-child(1) {
       &:hover {
         .submenu {
@@ -15,13 +15,6 @@
         }
       }
     }
-  }
-  &__list-link {
-    display: block;
-    padding: 25px 0;
-    font-weight: var(--font-medium);
-    color: var(--primary-color);
-    position: relative;
 
     &::before {
       content: "";
@@ -36,23 +29,6 @@
       visibility: hidden;
       z-index: 20;
     }
-    &:hover {
-      &::before {
-        visibility: visible;
-        opacity: 1;
-      }
-    }
-    &--active {
-      &::before {
-        visibility: visible;
-        opacity: 1;
-      }
-      &::after {
-        transform: rotate(-180deg);
-      }
-    }
-  }
-  &__list-link[data-submenu-trigger] {
     &::after {
       content: "";
       position: absolute;
@@ -64,30 +40,39 @@
       transition: all 0.2s ease-out;
     }
     &:hover {
+      &::before {
+        visibility: visible;
+        opacity: 1;
+      }
       &::after {
         transform: rotate(-180deg);
       }
     }
   }
+  &__list-link {
+    display: block;
+    padding: 25px 0;
+    font-weight: var(--font-medium);
+    color: var(--primary-color);
+  }
 }
 
 .submenu {
-  padding: 30px 0px 40px 0px;
-  position: absolute;
-  top: 103%;
-  left: 0;
-  right: 0;
-  z-index: 15;
-  width: 100%;
-  transition: all 0.2s ease-out;
+  border-top: 1px solid #e0e0e0;
   background-color: #fff;
+  padding: 30px 1000em;
+  margin: 0 -1000em;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 15;
   opacity: 0;
   visibility: hidden;
-
+  transition: all 0.2s ease-out;
   &__inner {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 30px;
+    gap: 80px;
   }
   &__list {
     &:hover {
@@ -110,4 +95,3 @@
     }
   }
 }
-
