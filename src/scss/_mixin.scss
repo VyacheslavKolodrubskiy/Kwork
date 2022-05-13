@@ -1,4 +1,4 @@
-@mixin fontFamily($font_name, $file_name, $weight, $style) {
+@mixin font-family($font_name, $file_name, $weight, $style) {
   @font-face {
     font-family: $font_name;
     src: url("../fonts/#{$file_name}.woff2") format("woff2");

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp",
-    "build": "gulp --production"
+    "build": "gulp --production",
+    "stylelint": "npx stylelint **/*.scss --fix"
   },
   "browserList": [
     "last 3 versions"
@@ -42,6 +43,9 @@
     "gulp-webp-css": "^1.1.0",
     "gulp-webp-html": "^1.0.2",
     "sass": "^1.49.9",
+    "stylelint": "^14.8.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^5.0.0",
     "webpack": "^5.70.0",
     "webpack-stream": "^7.0.0"
   },

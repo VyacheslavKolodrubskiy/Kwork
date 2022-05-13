@@ -1,18 +1,15 @@
 html {
   box-sizing: border-box;
 }
-
 *,
 *::after,
 *::before {
   box-sizing: inherit;
 }
-
 ul[class],
 ol[class] {
   padding: 0;
 }
-
 body,
 h1,
 h2,
@@ -31,18 +28,15 @@ dl,
 dd {
   margin: 0;
 }
-
 ul[class] {
   list-style: none;
 }
-
 input,
 button,
 textarea,
 select {
   font: inherit;
 }
-
 a {
   text-decoration: none;
 }

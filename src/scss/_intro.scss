@@ -7,10 +7,10 @@
   }
   &__title {
     margin-bottom: 60px;
+    color: var(--primary-color);
     font-weight: var(--font-bold);
     font-size: 56px;
     line-height: 130%;
-    color: var(--primary-color);
     span {
       color: var(--secondary-color);
     }
@@ -30,7 +30,6 @@
     }
   }
 }
-
 .glide {
   overflow: hidden;
   &__track {

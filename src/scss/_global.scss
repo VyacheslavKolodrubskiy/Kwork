@@ -1,51 +1,42 @@
 :root {
-  --primary-color: #555555;
+  --primary-color: #555;
   --secondary-color: #e53429;
   --font-medium: 500;
   --font-bold: 700;
 }
-
 html,
 body {
   height: 100%;
 }
-
 body {
-  line-height: 1;
-  font-family: "Muller", sans-serif;
   font-size: 18px;
+  font-family: Muller, sans-serif;
+  line-height: 1;
 }
-
 img {
+  display: block;
   max-width: 100%;
   height: auto;
-  display: block;
   aspect-ratio: attr(width) / attr(height);
 }
-
 .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100%;
   overflow: hidden;
 }
-
 .main {
   flex: 1 0 auto;
 }
-
 .footer {
   flex: 0 0 auto;
 }
-
 .container {
   max-width: 1838px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
 .section-title {
 }
-
 .section-subtitle {
 }

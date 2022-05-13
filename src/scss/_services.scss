@@ -1,11 +1,11 @@
 .services {
-  padding: 100px 0px 196px 0px;
+  padding: 100px 0 196px;
   &__title {
     margin-bottom: 40px;
+    color: var(--primary-color);
     font-weight: var(--font-bold);
     font-size: 38px;
     line-height: 120%;
-    color: var(--primary-color);
   }
   &__inner {
     display: grid;
@@ -22,25 +22,25 @@
   &__block-img {
   }
   &__footer {
+    position: relative;
     min-height: 90px;
     padding: 14px 50px 14px 20px;
     background: #f0f0f0;
-    position: relative;
     &::after {
-      content: "";
       position: absolute;
-      background: url("../img/icons/arrow-right.svg") no-repeat;
-      width: 30px;
-      height: 30px;
       top: 14px;
       right: 10px;
+      width: 30px;
+      height: 30px;
+      background: url("../img/icons/arrow-right.svg") no-repeat;
+      content: "";
     }
   }
   &__footer-title {
+    color: var(--primary-color);
     font-weight: var(--font-medium);
     font-size: 26px;
     line-height: 120%;
-    color: var(--primary-color);
     transition: all 0.2s ease-out;
   }
 }
