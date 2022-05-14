@@ -1,0 +1,47 @@
+.industrial-medicine {
+  padding-top: 70px;
+  &__top-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  &__content {
+    max-width: 896px;
+  }
+  &__title {
+  }
+  &__subtitle {
+    margin-bottom: 20px;
+  }
+  &__description {
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+  &__block {
+    border: 1px solid #e0e0e0;
+  }
+  &__block-title {
+  }
+  &__block-subtitle {
+  }
+  &__block-description {
+  }
+  &__middle {
+  }
+  &__middle-block {
+  }
+  &__middle-img {
+  }
+  &__middle-content {
+  }
+  &__middle-title {
+  }
+  &__middle-description {
+  }
+  &__middle-more {
+  }
+  &__slider {
+  }
+}
+
