@@ -28,7 +28,7 @@
   &__block-title {
     margin-bottom: 16px;
     color: var(--primary-color);
-    font-weight: 500;
+    font-weight: var(--font-medium);
     font-size: 26px;
     line-height: 120%;
     text-align: center;
@@ -36,7 +36,7 @@
   &__block-subtitle {
     margin-bottom: 12px;
     color: var(--primary-color);
-    font-weight: 700;
+    font-weight: var(--font-bold);
     font-size: 20px;
     line-height: 150%;
   }
@@ -98,7 +98,7 @@
   &__middle-title {
     margin-bottom: 16px;
     color: var(--primary-color);
-    font-weight: 500;
+    font-weight: var(--font-medium);
     font-size: 26px;
     line-height: 120%;
   }
@@ -110,7 +110,7 @@
   }
   &__middle-more {
     color: var(--primary-color);
-    font-weight: 700;
+    font-weight: var(--font-bold);
     font-size: 20px;
     line-height: 150%;
     a {
@@ -129,13 +129,13 @@
   }
   &__stock-title {
     color: var(--primary-color);
-    font-weight: 700;
+    font-weight: var(--font-bold);
     font-size: 38px;
     line-height: 120%;
   }
   &__stock-more {
     color: #e53429;
-    font-weight: 500;
+    font-weight: var(--font-medium);
     font-size: 18px;
     line-height: 100%;
   }

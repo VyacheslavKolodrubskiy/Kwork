@@ -4,7 +4,7 @@
   &__title {
     margin-bottom: 30px;
     color: var(--primary-color);
-    font-weight: 500;
+    font-weight: var(--font-medium);
     font-size: 26px;
     line-height: 120%;
   }
@@ -29,7 +29,7 @@
     display: block;
     padding: 25px 30px;
     color: var(--primary-color);
-    font-weight: 700;
+    font-weight: var(--font-bold);
     font-size: 20px;
     line-height: 150%;
   }

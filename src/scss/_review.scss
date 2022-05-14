@@ -27,7 +27,7 @@
   &__form-title {
     margin-bottom: 40px;
     color: var(--primary-color);
-    font-weight: 700;
+    font-weight: var(--font-bold);
     font-size: 38px;
     line-height: 120%;
   }
@@ -105,7 +105,7 @@
   &__block-title {
     margin-bottom: 20px;
     color: var(--primary-color);
-    font-weight: 700;
+    font-weight: var(--font-bold);
     font-size: 20px;
     line-height: 150%;
   }
