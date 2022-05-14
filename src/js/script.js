@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
     perView: 1,
   }).mount();
 
-  new Glide(".industrial__slider", {
+  new Glide(".industrial-medicine__slider", {
     type: "carousel",
     startAt: 0,
-    perView: 3,
+    perView: 1,
   }).mount();
 });
 

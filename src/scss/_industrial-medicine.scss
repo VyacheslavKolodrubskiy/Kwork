@@ -122,12 +122,36 @@
     padding: 100px 0px 182px 0px;
   }
   &__stock-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
   }
   &__stock-title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    color: #555555;
   }
   &__stock-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #e53429;
   }
   &__slider {
+    overflow: hidden;
+    &__track {
+    }
+    &__slides {
+      display: flex;
+    }
+    &__slide-inner {
+      display: flex;
+      align-items: center;
+    }
+    &__slide {
+    }
   }
 }
 
