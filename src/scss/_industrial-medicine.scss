@@ -45,9 +45,37 @@
       margin-bottom: 20px;
     }
   }
-  &__middle {
-    padding: 100px 0;
-    background-color: #f0f0f0;
+  &__middle-wrapper {
+    max-width: 1656px;
+    &:nth-child(1) {
+      .industrial-medicine__middle-content {
+        max-width: 837px;
+      }
+      .industrial-medicine__middle-block {
+        padding: 70px 108px 70px 244px;
+        margin-left: auto;
+        margin-bottom: 170px;
+        .industrial-medicine__middle-img {
+          top: -100px;
+          left: -456px;
+        }
+      }
+    }
+    &:nth-child(2) {
+      .industrial-medicine__middle-content {
+        max-width: 859px;
+      }
+      .industrial-medicine__middle-block {
+        padding: 70px 228px 70px 108px;
+        .industrial-medicine__middle-img {
+          bottom: 131px;
+          right: -525px;
+        }
+        .industrial-medicine__middle-more {
+          max-width: 578px;
+        }
+      }
+    }
   }
   &__middle-block {
     max-width: 1200px;
@@ -56,8 +84,14 @@
     background: #ffffff;
     border: 1px solid #e0e0e0;
     display: flex;
+    position: relative;
+  }
+  &__middle {
+    padding: 200px 0px 100px 0px;
+    background-color: #f0f0f0;
   }
   &__middle-img {
+    position: absolute;
   }
   &__middle-content {
   }
@@ -79,6 +113,19 @@
     font-size: 20px;
     line-height: 150%;
     color: #555555;
+    a {
+      margin-top: 4px;
+      color: #e53429;
+    }
+  }
+  &__stock {
+    padding: 100px 0px 182px 0px;
+  }
+  &__stock-header {
+  }
+  &__stock-title {
+  }
+  &__stock-more {
   }
   &__slider {
   }
