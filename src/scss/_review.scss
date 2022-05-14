@@ -1,0 +1,21 @@
+.review {
+  padding: 70px 0px 248px 0px;
+  background-color: #f0f0f0;
+  &__block {
+    text-align: center;
+    padding: 70px 0;
+    background: #ffffff;
+    max-width: 1300px;
+    margin: 0px auto;
+  }
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__description {
+    max-width: 919px;
+    margin: 0px auto 70px auto;
+  }
+  &__btn {
+  }
+}
+

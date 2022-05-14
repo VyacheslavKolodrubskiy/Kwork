@@ -12,24 +12,53 @@
   &__information {
   }
   &__block {
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
   }
   &__block-title {
   }
   &__doctor-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
   }
   &__doctor-avatar {
+    margin-right: 20px;
   }
   &__doctor-content {
+    margin-right: 76px;
+    > * {
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
   }
   &__doctor-name {
   }
   &__doctor-profession {
+    font-size: 18px;
+    line-height: 100%;
+    color: #9fa19f;
   }
   &__doctor-price {
+    > * {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
   }
-  &__doctor-first-time {
+  &__doctor-first-visit,
+  &__doctor-second-visit {
+    font-size: 18px;
+    line-height: 100%;
+    color: #555555;
+    span {
+      font-weight: 500;
+    }
   }
-  &__doctor-second-time {
+  &__doctor-second-visit {
   }
   &__btn {
   }
