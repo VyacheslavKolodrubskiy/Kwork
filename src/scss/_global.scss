@@ -47,6 +47,9 @@ img {
   font-size: 20px;
   line-height: 150%;
   color: var(--primary-color);
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
 }
 .section-subtitle {
   font-weight: 700;

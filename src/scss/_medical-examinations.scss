@@ -1,0 +1,79 @@
+.medical-examinations {
+  padding: 70px 0px 0px 0px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+  }
+  &__content {
+    max-width: 593px;
+  }
+  &__title {
+  }
+  &__accordion {
+    max-width: 1048px;
+    width: 100%;
+  }
+  &__accordion-title {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120%;
+    color: #555555;
+    margin-bottom: 30px;
+  }
+  &__accordion-block {
+    min-height: 80px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      .medical-examinations__accordion-block-body {
+        opacity: 1;
+        visibility: visible;
+        max-height: 100%;
+      }
+      &::after {
+        transform: rotate(-135deg);
+      }
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      border: solid #555555;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 4px;
+      transform: rotate(45deg);
+      right: 35px;
+      top: 30px;
+      transition: transform 0.2s ease-out;
+    }
+  }
+  &__accordion-header {
+    padding: 25px 30px;
+  }
+  &__accordion-block-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+  }
+  &__accordion-block-body {
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+    padding: 0px 30px 25px 30px;
+  }
+  &__advantage {
+  }
+  &__advantage-title {
+  }
+  &__advantage-block {
+  }
+  &__advantage-block-num {
+  }
+  &__advantage-block-descr {
+  }
+}
+
