@@ -37,6 +37,32 @@ img {
   padding: 0 15px;
 }
 .section-title {
+  color: var(--primary-color);
+  font-weight: var(--font-bold);
+  font-size: 38px;
+  line-height: 120%;
+  margin-bottom: 30px;
 }
-.section-subtitle {
+.section-description {
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--primary-color);
+}
+
+.block-title {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 120%;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.doctor-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--primary-color);
+}
+.doctor-block {
+  border: 1px solid #e0e0e0;
 }

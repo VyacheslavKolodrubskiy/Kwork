@@ -1,0 +1,15 @@
+.breadcrumbs-list {
+  margin-bottom: 50px;
+  &__item {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    span {
+      color: #555555;
+    }
+  }
+  &__link {
+    color: #999999;
+  }
+}
+
