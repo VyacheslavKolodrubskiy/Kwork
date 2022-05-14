@@ -78,7 +78,7 @@
   &__inner {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 0px 95px;
+    gap: 0 95px;
   }
   &__list {
     &:hover {

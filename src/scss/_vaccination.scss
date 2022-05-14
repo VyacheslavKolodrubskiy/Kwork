@@ -1,5 +1,5 @@
 .vaccination {
-  padding: 70px 0px 227px 0px;
+  padding: 70px 0 227px;
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -28,24 +28,24 @@
   }
   &__banner {
     max-width: 440px;
-    min-height: 392px;
     height: 100%;
-    text-align: center;
+    min-height: 392px;
     padding: 40px;
+    text-align: center;
     border: 1px solid #e0e0e0;
   }
   &__banner-title {
+    margin-bottom: 20px;
+    color: #555555;
     font-weight: 500;
     font-size: 26px;
     line-height: 120%;
-    color: #555555;
-    margin-bottom: 20px;
   }
   &__banner-description {
+    margin-bottom: 60px;
+    color: #555555;
     font-size: 20px;
     line-height: 150%;
-    color: #555555;
-    margin-bottom: 60px;
   }
 }
 

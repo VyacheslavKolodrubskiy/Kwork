@@ -17,9 +17,9 @@
   &__bottom {
   }
   &__location {
+    position: relative;
     display: flex;
     align-items: center;
-    position: relative;
     padding: 15px 26px 15px 29px;
     color: var(--primary-color);
     cursor: pointer;
@@ -51,9 +51,9 @@
     width: 170%;
     background-color: #ffffff;
     box-shadow: 0 5px 10px 2px rgb(34 60 80 / 20%);
-    transition: all 0.2s ease-out;
     visibility: hidden;
     opacity: 0;
+    transition: all 0.2s ease-out;
   }
   &__location-item {
     &:hover {

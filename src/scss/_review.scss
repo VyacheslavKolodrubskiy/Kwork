@@ -1,40 +1,37 @@
 .review {
-  padding: 70px 0px 248px 0px;
+  padding: 70px 0 248px;
   background-color: #f0f0f0;
   &__block {
-    text-align: center;
-    padding: 70px 0;
-    background: #ffffff;
-    max-width: 1300px;
-    margin: 0px auto;
     display: none;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 70px 0;
+    text-align: center;
+    background: #ffffff;
   }
   &__title {
     margin-bottom: 20px;
   }
   &__description {
     max-width: 919px;
-    margin: 0px auto 70px auto;
+    margin: 0 auto 70px;
   }
   &__btn {
   }
   &__form {
-    background-color: #fff;
     max-width: 1300px;
-    padding: 80px 50px 70px 50px;
-    margin: 0px auto;
+    margin: 0 auto;
+    padding: 80px 50px 70px;
+    background-color: #ffffff;
   }
   &__form-title {
+    margin-bottom: 40px;
+    color: #555555;
     font-weight: 700;
     font-size: 38px;
     line-height: 120%;
-    margin-bottom: 40px;
-    color: #555555;
-  }
-  &__btn {
   }
 }
-
 .form {
   &__block {
     &:nth-child(2) {
@@ -53,9 +50,9 @@
         margin-bottom: 15px;
       }
       .form__input + p {
+        color: #9fa19f;
         font-size: 16px;
         line-height: 150%;
-        color: #9fa19f;
       }
     }
     &:nth-child(6) {
@@ -106,19 +103,19 @@
     }
   }
   &__block-title {
+    margin-bottom: 20px;
+    color: #555555;
     font-weight: 700;
     font-size: 20px;
     line-height: 150%;
-    margin-bottom: 20px;
-    color: #555555;
   }
   &__input-wrapper {
     display: flex;
     align-items: center;
   }
   &__input {
-    max-width: 380px;
     width: 100%;
+    max-width: 380px;
     &:not(:last-child) {
       margin-right: 30px;
     }
@@ -127,41 +124,41 @@
       min-height: 48px;
     }
     textarea {
-      resize: none;
       height: 100%;
+      resize: none;
     }
     input[type="radio"],
     input[type="checkbox"] {
       display: none;
     }
     input[type="radio"] + label {
+      position: relative;
+      padding-left: 35px;
+      color: #555555;
       font-size: 18px;
       line-height: 100%;
-      position: relative;
-      color: #555555;
-      padding-left: 35px;
       &::before {
-        content: "";
-        width: 18px;
-        height: 18px;
         position: absolute;
         top: 0;
-        left: 0;
         bottom: 1px;
+        left: 0;
+        width: 18px;
+        height: 18px;
         border: 1px solid #9fa19f;
         border-radius: 50%;
         cursor: pointer;
+        content: "";
       }
       &::after {
-        content: "";
         position: absolute;
         top: 3px;
         left: 3px;
+        display: none;
         width: 12px;
         height: 12px;
-        border-radius: 50%;
         background-color: #e53429;
-        display: none;
+        border-radius: 50%;
+        content: "";
       }
     }
     input[type="radio"]:checked + label,
@@ -172,36 +169,35 @@
     }
     label[for="consideration"],
     label[for="processing"] {
-      font-size: 18px;
-      line-height: 100%;
-      color: #555555;
       position: relative;
       padding-left: 35px;
+      color: #555555;
+      font-size: 18px;
+      line-height: 100%;
       &::before {
-        content: "";
         position: absolute;
         top: 0;
         left: 0;
         width: 20px;
         height: 20px;
         border: 1px solid #e0e0e0;
+        content: "";
       }
       &::after {
-        content: "";
         position: absolute;
         top: 3px;
         left: 3px;
+        display: none;
         width: 14px;
         height: 14px;
-        background: red;
-        display: none;
+        background: var(--secondary-color);
+        content: "";
       }
     }
-
     input[type="file"] {
+      display: none;
       width: 20px;
       height: 20px;
-      display: none;
     }
     input[type="file"] + label {
       display: none;
@@ -214,9 +210,9 @@
       border: 1px solid #e0e0e0;
       outline: #e0e0e0;
       &::placeholder {
+        color: #9fa19f;
         font-size: 18px;
         line-height: 100%;
-        color: #9fa19f;
       }
     }
   }
@@ -224,20 +220,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #ccc;
     padding: 12px 15px;
+    border: 1px solid #cccccc;
     cursor: pointer;
     div {
+      color: #9fa19f;
       font-size: 18px;
       line-height: 100%;
-      color: #9fa19f;
     }
   }
   &__notice {
+    margin-bottom: 21px;
+    color: #9fa19f;
     font-size: 16px;
     line-height: 150%;
-    color: #9fa19f;
-    margin-bottom: 21px;
   }
 }
 
