@@ -19,19 +19,14 @@
         Создать обращение
       </button>
     </div>
-    <div class="appeal-block">
-      <h2 class="appeal-block__title"></h2>
+    <div class="review__form">
+      <h2 class="review__form-title">Новое обращение</h2>
       <form class="form">
         <div class="form__block">
           <h3 class="form__block-title">Данные отправителя</h3>
           <div class="form__input-wrapper">
             <div class="form__input">
-              <input
-                type="text"
-                name="surname"
-                placeholder="Фамилия*"
-                required
-              />
+              <input type="text" name="surname" placeholder="Фамилия*" required />
             </div>
             <div class="form__input">
               <input type="text" name="name" placeholder="Имя*" required />
@@ -43,18 +38,109 @@
         </div>
         <div class="form__block">
           <h3 class="form__block-title">Тема обращения</h3>
-          <input type="text" name="theme" placeholder="Введите тему" />
+          <div class="form__input">
+            <input type="text" name="theme" placeholder="Введите тему" />
+          </div>
         </div>
         <div class="form__block">
           <h3 class="form__block-title">Содержание обращения</h3>
-          <textarea name="appeals" placeholder="Опишите ситуацию"></textarea>
+          <div class="form__input">
+            <textarea name="appeals" placeholder="Опишите ситуацию"></textarea>
+          </div>
         </div>
         <div class="form__block">
           <h3 class="form__block-title">Выберите категорию</h3>
-          <textarea name="appeals" placeholder="Опишите ситуацию"></textarea>
+          <div class="form__input">
+            <select name="quality">
+              <option selected>Качество оказания услуг</option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
+          </div>
         </div>
+        <div class="form__block">
+          <h3 class="form__block-title">Прикрепить файл</h3>
+          <div class="form__input">
+            <label class="form__input-upload">
+              <input type="file" name="file" />
+              <div>Выберите файл</div> <img src="./img/icons/clip.svg" width="24" height="24" alt="Clip">
+            </label>
+          </div>
+          <p>
+            Вы можете приложить дополнительные документы или материалы в
+            электронной форме, более полно раскрывающие суть Вашего обращения.
+            Размер файла вложения не может превышать 5 МБ. Для вложений
+            допустимы следующие форматы файлов: txt, doc, rtf, xls, pps, ppt,
+            pdf, jpg, bmp, png, tif.
+          </p>
+        </div>
+        <div class="form__block">
+          <h3 class="form__block-title">Как вы хотите получить ответ?</h3>
+          <div class="form__group">
+            <div class="form__input">
+              <input type="radio" name="" id="mailing" />
+              <label for="mailing">Почтовое отправление</label>
+            </div>
+            <div class="form__input">
+              <input type="radio" name="" id="email" />
+              <label for="email">Электронная почта</label>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form__block">
+          <div class="form__input">
+            <input type="text" name="surname" placeholder="Почтовый индекс*" required />
+          </div>
+          <div class="form__input">
+            <select name="">
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
+          </div>
+          <div class="form__input">
+            <input type="text" name="surname" placeholder="Район" />
+          </div>
+        </div>
+        <div class="form__block">
+          <div class="form__input">
+            <input type="text" name="surname" placeholder="Населенный пункт*" required />
+          </div>
+          <div class="form__input">
+            <input type="text" name="surname" placeholder="Улица*" required />
+          </div>
+        </div>
+        <div class="form__block">
+          <div class="form__group">
+            <div class="form__input">
+              <input type="text" name="surname" placeholder="Дом*" required />
+            </div>
+            <div class="form__input">
+              <input type="text" name="surname" placeholder="Корпус" />
+            </div>
+            <div class="form__input">
+              <input type="text" name="surname" placeholder="Квартира" />
+            </div>
+
+          </div>
+          <span class="form__notice">*Поля, обязательные к заполнению</span>
+
+        </div>
+
+        <div class="form__block">
+          <div class="form__input">
+            <input type="checkbox" name="consideration" id="consideration" />
+            <label for="consideration">С порядком приема и рассмотрения обращений ознакомлен (а)</label>
+          </div>
+          <div class="form__input">
+            <input type="checkbox" name="processing" id="processing" />
+            <label for="processing">Даю свое согласие на обработку персональных данных</label>
+          </div>
+        </div>
+        <button class="review__btn btn btn-danger" type="submit">Отправить обращение</button>
       </form>
     </div>
   </div>
 </section>
-
