@@ -27,7 +27,7 @@
   }
   &__block-title {
     margin-bottom: 16px;
-    color: #555555;
+    color: var(--primary-color);
     font-weight: 500;
     font-size: 26px;
     line-height: 120%;
@@ -35,7 +35,7 @@
   }
   &__block-subtitle {
     margin-bottom: 12px;
-    color: #555555;
+    color: var(--primary-color);
     font-weight: 700;
     font-size: 20px;
     line-height: 150%;
@@ -97,19 +97,19 @@
   }
   &__middle-title {
     margin-bottom: 16px;
-    color: #555555;
+    color: var(--primary-color);
     font-weight: 500;
     font-size: 26px;
     line-height: 120%;
   }
   &__middle-description {
     margin-bottom: 24px;
-    color: #555555;
+    color: var(--primary-color);
     font-size: 20px;
     line-height: 150%;
   }
   &__middle-more {
-    color: #555555;
+    color: var(--primary-color);
     font-weight: 700;
     font-size: 20px;
     line-height: 150%;
@@ -128,7 +128,7 @@
     margin-bottom: 30px;
   }
   &__stock-title {
-    color: #555555;
+    color: var(--primary-color);
     font-weight: 700;
     font-size: 38px;
     line-height: 120%;

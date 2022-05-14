@@ -3,7 +3,7 @@
   max-width: 1048px;
   &__title {
     margin-bottom: 30px;
-    color: #555555;
+    color: var(--primary-color);
     font-weight: 500;
     font-size: 26px;
     line-height: 120%;
@@ -19,7 +19,7 @@
       right: 30px;
       display: inline-block;
       padding: 5px;
-      border: solid #555555;
+      border: solid var(--primary-color);
       border-width: 0 3px 3px 0;
       transform: rotate(45deg);
       content: "";
@@ -28,7 +28,7 @@
   &__block-title {
     display: block;
     padding: 25px 30px;
-    color: #555555;
+    color: var(--primary-color);
     font-weight: 700;
     font-size: 20px;
     line-height: 150%;
@@ -45,7 +45,7 @@
   &__content {
     display: none;
     padding: 25px 30px;
-    color: #555555;
+    color: var(--primary-color);
     font-size: 14px;
     line-height: 150%;
   }

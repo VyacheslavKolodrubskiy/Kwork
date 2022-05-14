@@ -36,14 +36,14 @@
   }
   &__banner-title {
     margin-bottom: 20px;
-    color: #555555;
+    color: var(--primary-color);
     font-weight: 500;
     font-size: 26px;
     line-height: 120%;
   }
   &__banner-description {
     margin-bottom: 60px;
-    color: #555555;
+    color: var(--primary-color);
     font-size: 20px;
     line-height: 150%;
   }

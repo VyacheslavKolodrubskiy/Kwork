@@ -51,7 +51,7 @@
   }
   &__doctor-first-visit,
   &__doctor-second-visit {
-    color: #555555;
+    color: var(--primary-color);
     font-size: 18px;
     line-height: 100%;
     span {
