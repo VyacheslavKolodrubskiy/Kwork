@@ -2,16 +2,16 @@ import Glide from "@glidejs/glide";
 
 ("use strict");
 document.addEventListener("DOMContentLoaded", () => {
-  new Glide(".glide", {
-    type: "carousel",
-    startAt: 0,
-    perView: 1,
-  }).mount();
+  function defineSlider(selector, config = {}) {
+    if (!document.querySelector(selector)) return;
+    new Glide(selector, config).mount();
+  }
 
-  new Glide(".industrial-medicine__slider", {
+  defineSlider(".intro__slider");
+  defineSlider(".industrial-medicine__slider", {
     type: "carousel",
-    startAt: 0,
-    perView: 1,
-  }).mount();
+    perView: 4,
+    autoplay: 2000,
+  });
 });
 

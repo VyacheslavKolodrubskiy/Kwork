@@ -33,11 +33,12 @@
       }
       &::after {
         position: absolute;
-        top: 25px;
+        top: 29px;
         right: -20px;
-        width: 16px;
-        height: 16px;
-        background: url("../img/icons/arrow-down.svg") no-repeat;
+        border: solid #555555;
+        border-width: 0 1px 1px 0;
+        padding: 2.5px;
+        transform: rotate(45deg);
         transition: all 0.2s ease-out;
         content: "";
       }
@@ -47,7 +48,7 @@
           opacity: 1;
         }
         &::after {
-          transform: rotate(-180deg);
+          transform: rotate(-135deg);
         }
       }
     }
